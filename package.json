@@ -15,7 +15,7 @@
   "license": "MIT",
   "main": "./lib/index",
   "scripts": {
-    "test": "yarn build && jest test.tsx",
+    "test": "tsc && jest test.tsx",
     "build": "tsc",
     "size": "size-limit"
   },
